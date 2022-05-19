@@ -1,3 +1,30 @@
+## Racikan
+* React
+* react-router-dom@6 https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation
+* State Management Redux https://redux.js.org/introduction/getting-started
+* React Bootstrap https://react-bootstrap-v4.netlify.app/getting-started/introduction
+* react-router-bootstrap (v.6)
+* React Icons https://react-icons.github.io/react-icons
+
+## Guideline
+* npx create-react-app react-todo, npm start
+* npm install react-bootstrap bootstrap@4.6.0
+* npm install react-icons --save
+* npm install react-router-dom@6
+* npm install -S react-router-bootstrap
+* npm install redux
+* buat folder components, containers, redux, services sendiri
+
+## Deployment to github
+* https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+* npm run deploy
+
+## Problem & Fixing
+* Bootstrap React Router
+* https://medium.com/how-to-react/use-react-router-link-with-bootstrap-315a8b88e129
+* CSS !important problem
+* https://joshtronic.com/2018/03/22/how-to-important-inline-styles-in-react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
