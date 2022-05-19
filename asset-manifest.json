@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-sikeu/static/css/main.ab7dad91.css",
+    "main.js": "/react-sikeu/static/js/main.0bb8bf9d.js",
+    "static/js/787.2b252aec.chunk.js": "/react-sikeu/static/js/787.2b252aec.chunk.js",
+    "index.html": "/react-sikeu/index.html",
+    "main.ab7dad91.css.map": "/react-sikeu/static/css/main.ab7dad91.css.map",
+    "main.0bb8bf9d.js.map": "/react-sikeu/static/js/main.0bb8bf9d.js.map",
+    "787.2b252aec.chunk.js.map": "/react-sikeu/static/js/787.2b252aec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab7dad91.css",
+    "static/js/main.0bb8bf9d.js"
+  ]
+}
