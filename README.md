@@ -16,8 +16,11 @@
 * buat folder components, containers, redux, services sendiri
 
 ## Deployment to github
+* git remote add origin
 * https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 * npm run deploy
+* Before deploy 
+* https://scottvinkle.me/blogs/work/how-to-deploy-a-react-app-to-a-subdirectory
 
 ## Problem & Fixing
 * Bootstrap React Router
