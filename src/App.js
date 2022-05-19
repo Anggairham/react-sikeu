@@ -21,13 +21,13 @@ function App() {
       
       <Navbar bg="dark" variant="dark" fixed="bottom">
           <Nav className="w-100 small" justify>
-            <LinkContainer to="/">
+            <LinkContainer to={`${process.env.PUBLIC_URL}/`}>
               <Nav.Link><BsFillHouseFill></BsFillHouseFill> <br/>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/laporan">
+            <LinkContainer to={`${process.env.PUBLIC_URL}/laporan`}>
               <Nav.Link><BsFileEarmark></BsFileEarmark> <br/>Laporan</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/setting">
+            <LinkContainer to={`${process.env.PUBLIC_URL}/setting`}>
               <Nav.Link><BsGearFill></BsGearFill> <br/>Setting</Nav.Link>
             </LinkContainer>
           </Nav>
@@ -35,9 +35,9 @@ function App() {
 
       {/* Content Dibawah ini */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="laporan" element={<Laporan />} />
-        <Route path="setting" element={<Setting />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route path={`${process.env.PUBLIC_URL}/laporan`} element={<Laporan />} />
+        <Route path={`${process.env.PUBLIC_URL}/setting`} element={<Setting />} />
       </Routes>
     </BrowserRouter>
   );
