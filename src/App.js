@@ -7,9 +7,9 @@ import { BsFillHouseFill,BsGearFill,BsFileEarmark, } from "react-icons/bs";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import {LinkContainer} from 'react-router-bootstrap';
 
-import Home from './containers/pages/Home.jsx';
-import Laporan from './containers/pages/Laporan.jsx';
-import Setting from './containers/pages/Setting.jsx';
+import Home from './pages/Home.jsx';
+import Laporan from './pages/Laporan.jsx';
+import Setting from './pages/Setting.jsx';
 
 function App() {
   return (
