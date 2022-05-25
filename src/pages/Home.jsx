@@ -1,15 +1,37 @@
-import {Container,Row,Col,Table} from 'react-bootstrap';
+import React, { useState } from 'react';
+
+import {Container,Row,Col,Table,Button,Modal} from 'react-bootstrap';
 
 import { BsPlus, } from "react-icons/bs";
 
 export default function Home() {
+  
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
     return (
       <Container fluid className='content'>
-        <div className="fab-container">
+        <div className="fab-container" onClick={handleShow}>
           <div className="fab-icon-holder">
             <BsPlus className='fab-icon'></BsPlus>
           </div>
         </div>
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton closeLabel='Close'>
+            <Modal.Title>Modal heading</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+              Save Changes
+            </Button>
+          </Modal.Footer>
+        </Modal>
         <Row>
           <Col sm="12">
             <div className='overflow-auto' style={{height:'300px',maxHeight:'300px'}}>

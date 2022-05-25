@@ -14,6 +14,7 @@
 * npm install -S react-router-bootstrap
 * npm install redux
 * buat folder components, containers, redux, services sendiri
+* https://onoufriosm.medium.com/react-best-practices-react-at-scale-part-2-11b69b96f5e
 
 ## Deployment to github
 * git remote add origin
@@ -23,6 +24,8 @@
 * https://scottvinkle.me/blogs/work/how-to-deploy-a-react-app-to-a-subdirectory
 
 ## Problem & Fixing
+* Masalah Button Close Modal pada react-boostrap@2.4.0 bootstrap@4.6.0 tidak muncul, jika diinstal react-boostrap@1.6.5 terdapat findDOMNode is deprecated (belum terpecahkan)
+* Terpaksa Ganti Bootstrap 5
 * Bootstrap React Router
 * https://medium.com/how-to-react/use-react-router-link-with-bootstrap-315a8b88e129
 * CSS !important problem
